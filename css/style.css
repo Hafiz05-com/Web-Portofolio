@@ -1,0 +1,45 @@
+.body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background: url("../img/bagus\ sekali.jpg") no-repeat center center/cover;
+    position: relative;
+}
+   
+.cursor {
+    display: inline-block;
+    color: #007bff;
+    animation: blink 1s infinite;
+    font-weight: bold;
+}
+    
+    .btn-custom {
+        background-color: #fc6805;
+        color:#ffffff;
+        border: none;
+    }
+    .btn-custom:hover {
+        background-color: darkorange;
+        color:rgb(246, 255, 255);
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.portfolio-card {
+    transition: transform 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #dce4e4;
+    text-align: center;
+    padding: 20px 0;
+}
